@@ -1,5 +1,5 @@
 #pragma once
-#include <mshadow/tensor.h>
+#include <mshadow/tensor.hpp>
 #include <sstream>
 
 template<typename DType>

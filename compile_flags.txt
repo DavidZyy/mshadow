@@ -1,2 +1,4 @@
 -I./mshadow
 -I./mshadow-ps
+-I./test
+-I/usr/include/mkl

@@ -1,8 +1,8 @@
 #pragma once
-#include <assert.h>
+#include <assert.hpp>
 #include <cstdio>
 #include <cstdlib>
-#include "mshadow/tensor.h"
+#include "mshadow/tensor.hpp"
 
 typedef float real_t;
 

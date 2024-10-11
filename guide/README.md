@@ -18,7 +18,7 @@ See also other related materials about mshadow
 Tensor Data Structure
 ====
 The basic data structure of mshadow is Tensor. The following is a simplified equivalent version of
-the declaration in [mashadow/tensor.h](../mshadow/tensor.h)
+the declaration in [mashadow/tensor.hpp](../mshadow/tensor.hpp)
 ```c++
 typedef unsigned index_t;
 template<int dimension>
@@ -182,7 +182,7 @@ The following code is from [basic.cpp](basic.cpp). It illustrates basic usage of
 
 ```c++
 // header file to use mshadow
-#include "mshadow/tensor.h"
+#include "mshadow/tensor.hpp"
 // this namespace contains all data structures, functions
 using namespace mshadow;
 // this namespace contains all operator overloads

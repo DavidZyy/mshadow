@@ -4,12 +4,12 @@
 // this code is modified from nnet.cu
 #include <vector>
 #include <cmath>
-#include <omp.h>
+#include <omp.hpp>
 // header file to use mshadow
-#include <mshadow/tensor.h>
-#include <mshadow-ps/mshadow_ps.h>
+#include <mshadow/tensor.hpp>
+#include <mshadow-ps/mshadow_ps.hpp>
 // helper function to load mnist dataset
-#include "./util.h"
+#include "./util.hpp"
 // this namespace contains all data structures, functions
 using namespace mshadow;
 // this namespace contains all operator overloads

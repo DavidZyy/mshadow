@@ -26,7 +26,7 @@ all: $(BIN) #$(CUBIN)
 local_sum.cpu: local_sum.cpp
 local_sum.gpu: local_sum.cu
 
-dist_async_sum.cpu: dist_async_sum.cpp dist_async_sum-inl.h
+dist_async_sum.cpu: dist_async_sum.cpp dist_async_sum-inl.hpp
 dist_sync_sum.cpu: dist_sync_sum.cpp
 
 $(BIN) :

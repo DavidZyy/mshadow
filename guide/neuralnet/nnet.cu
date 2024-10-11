@@ -2,9 +2,9 @@
 #include <vector>
 #include <cmath>
 // header file to use mshadow
-#include "mshadow/tensor.h"
+#include "mshadow/tensor.hpp"
 // helper function to load mnist dataset
-#include "util.h"
+#include "util.hpp"
 // this namespace contains all data structures, functions
 using namespace mshadow;
 // this namespace contains all operator overloads

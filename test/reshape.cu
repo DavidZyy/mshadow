@@ -1,5 +1,5 @@
-#include "mshadow/tensor.h"
-#include "old/tensor.h"
+#include "tensor.hpp"
+#include "old/tensor.hpp"
 #include "assert.h"
 #include <cstring>
 

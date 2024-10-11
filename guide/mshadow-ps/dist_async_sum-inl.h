@@ -1,16 +1,16 @@
 /**
  * @brief  Simple test of KVLayer
  */
-#include "ps.h"
-#include "parameter/kv_layer.h"
+#include "ps.hpp"
+#include "parameter/kv_layer.hpp"
 #include <cstdio>
 #include <iostream>
-#include <omp.h>
+#include <omp.hpp>
 #include <map>
-#include <mshadow/tensor.h>
-#include <mshadow-ps/mshadow_ps.h>
-#include "dbstr.h"
-#include "glog/logging.h"
+#include <mshadow/tensor.hpp>
+#include <mshadow-ps/mshadow_ps.hpp>
+#include "dbstr.hpp"
+#include "glog/logging.hpp"
 
 namespace mshadow {
 namespace ps {

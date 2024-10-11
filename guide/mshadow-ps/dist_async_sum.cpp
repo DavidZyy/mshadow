@@ -1,4 +1,4 @@
-#include "./dist_async_sum-inl.h"
+#include "./dist_async_sum-inl.hpp"
 
 int CreateServerNode(int argc, char *argv[]) {
   mshadow::ps::MShadowServerNode<float> server(argc, argv);

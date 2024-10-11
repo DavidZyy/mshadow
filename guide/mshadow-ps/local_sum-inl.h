@@ -1,9 +1,9 @@
 // This is an example demonstrating the usage of mshadow ps
 #include <cstdio>
 // use openmp to launch multiple threads
-#include <omp.h>
-#include <mshadow/tensor.h>
-#include <mshadow-ps/mshadow_ps.h>
+#include <omp.hpp>
+#include <mshadow/tensor.hpp>
+#include <mshadow-ps/mshadow_ps.hpp>
 
 // simple util to print result
 void Print_(mshadow::Tensor<mshadow::cpu, 2, float> ts) {

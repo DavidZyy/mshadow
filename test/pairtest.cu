@@ -1,6 +1,6 @@
-#include "mshadow/tensor.h"
-#include "old/tensor.h"
-#include "assert.h"
+#include "mshadow/tensor.hpp"
+#include "old/tensor.hpp"
+#include "assert.hpp"
 #include <cstring>
 
 using mshadow::index_t;
