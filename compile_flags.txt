@@ -1,0 +1,2 @@
+-I./mshadow
+-I./mshadow-ps
